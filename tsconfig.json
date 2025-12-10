@@ -6,6 +6,8 @@
     // "outDir": "./dist",
 
     // Environment Settings
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
     // See also https://aka.ms/tsconfig/module
     "module": "nodenext",
     "target": "esnext",
@@ -39,6 +41,6 @@
     "isolatedModules": true,
     "noUncheckedSideEffectImports": true,
     "moduleDetection": "force",
-    "skipLibCheck": true,
+    "skipLibCheck": true
   }
 }
